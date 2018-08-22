@@ -49,7 +49,6 @@ class Answer:
         self.tv = tv
         self.sv = sv
         self.dif = dif
-############################## START
 def CalculateLoss(num):
     if num >= 0:
         offset = 0
@@ -74,7 +73,6 @@ def CalculateLoss(num):
     else:
         return 'Get real! (Press any button to try again.)'
         AcceptKeyPress(False)
-############################ END
 
 def FindRelativeMaximum(x,y):
     newx = []
